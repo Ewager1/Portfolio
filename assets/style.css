@@ -16,18 +16,39 @@ html {
   text-align: center;
 }
 /* makes text bold*/
-.bold{
-    font-weight:bolder
+.bold {
+  font-weight: bolder;
 }
-/*styles links*/ 
+/*styles links*/
 a {
-    color:gray!important;
-    border-right-style:solid;
-    font-size:1rem;
+  color: darkgreen !important;
+  border-right-style: solid;
+  border-color: rgb(138, 182, 138);
+  font-size: 1rem;
 }
-/*stops right border on contact*/ 
-.contact{
-    border-right:none;
+/*Universal Font Family and color*/ 
+h1,
+h2,
+p {
+  color: #3b2f2f !important;
+  font-family: 'Neucha', cursive;
+
+}
+
+h1{
+    font-size: 4em!important;
+}
+
+h2{
+    font-size: 3em!important;
+}
+
+p,a{
+    font-size: 1.5rem!important;
+}
+/*stops right border on contact*/
+.contact {
+  border-right: none;
 }
 /* Used to create parallax. Altered from W3 Schools*/
 .parallax {
@@ -72,12 +93,12 @@ a {
   height: 500px;
 }
 
-/*sizing for icons*/ 
-.icon-size{
-    max-width:100%;
-    height:150px;
+/*sizing for icons*/
+.icon-size {
+  max-width: 100%;
+  height: 150px;
 }
 
-.background-color{
-    background: !important;
+.background-color {
+  background: rgb(141, 199, 199);
 }
