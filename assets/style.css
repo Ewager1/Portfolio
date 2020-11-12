@@ -15,7 +15,21 @@ html {
 .center {
   text-align: center;
 }
-
+/* makes text bold*/
+.bold{
+    font-weight:bolder
+}
+/*styles links*/ 
+a {
+    color:gray!important;
+    border-right-style:solid;
+    font-size:1rem;
+}
+/*stops right border on contact*/ 
+.contact{
+    border-right:none;
+}
+/* Used to create parallax. Altered from W3 Schools*/
 .parallax {
   /* The image used */
   background-image: url("./images/backgroundPhoto.jpg");
@@ -55,5 +69,15 @@ html {
   Hardcoded height helps all cards look more consistent*/
 .card-size {
   width: auto;
-  height: 400px;
+  height: 500px;
+}
+
+/*sizing for icons*/ 
+.icon-size{
+    max-width:100%;
+    height:150px;
+}
+
+.background-color{
+    background: !important;
 }

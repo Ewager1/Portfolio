@@ -25,13 +25,21 @@
           <h1 class="col-12">Ethan Wager</h1>
           <h3 class="col-12">Full Stack Developer</h3>
           <h3 class="col-12">
-            <a>About </a><a>Project </a><a>Skill Set </a><a>Resume </a
-            ><a>Contact </a>
+            <a href="#aboutMe" class="mr-1"> About Me </a
+            ><a href="#projects" class="mr-1">Project </a
+            ><a href="#skills" class="mr-1">Skill-Set </a
+            ><a
+              target="_blank"
+              href="https://docs.google.com/document/d/1Dq4sB9DZ9mSK2EZWtSVFFRBlHK9ZADZGWFOMz5WRyyk/edit#heading=h.6wymnhinx9q5"
+              class="mr-1"
+              >Resume </a
+            ><a class="contact" href="#contact">Contact </a>
           </h3>
         </div>
       </div>
 
-      <div class="container-fluid">
+      <div class="container-fluid mt-3 mb-1 background-color">
+        <h2 class="center" id="aboutMe">About Me</h2>
         <div class="row pt-5 pb-5">
           <div class="col-6 center align-self-center">
             <img
@@ -41,7 +49,7 @@
             />
           </div>
           <div class="col-6 col-md-6 col-lg-5 col-xl-3">
-            <h2>Nice to Meet you!</h2>
+            <p class="bold">Nice to Meet you!</p>
             <p>
               I'm Ethan, an outgoing Full Stack Web Developer North of Boston.
             </p>
@@ -52,14 +60,25 @@
               working with data and Api's. If you're looking for someone who is
               intelligent and moldable, perhaps we will be a good fit.
             </p>
+            <!--Button Onclick opening in new tab from https://stackoverflow.com/questions/34082002/html-button-opening-link-in-new-tab/46542656-->
+            <button
+              type="button"
+              class="btn btn-secondary btn-lg mt-3"
+              onclick=" window.open('https://docs.google.com/document/d/1Dq4sB9DZ9mSK2EZWtSVFFRBlHK9ZADZGWFOMz5WRyyk/edit?usp=sharing','_blank')"
+              ;
+            >
+              Resume
+            </button>
           </div>
         </div>
       </div>
 
       <div class="parallax"></div>
 
-      <div class="col-12 center mb-5 mt-5"><h3>My Projects</h3></div>
-      <div class="container-fluid">
+      <div class="col-12 center mb-5 mt-5 background-color">
+        <h3 id="projects">My Projects</h3>
+      </div>
+      <div class="container-fluid background-color">
         <div class="row mb-md-5">
           <div class="col-12 col-md-6 col-lg-4">
             <!--Bootstrap Cards-->
@@ -70,21 +89,22 @@
                 alt="Snapshopt of the Day Planner App"
               />
               <div class="card-body">
-                <h5 class="card-title">Day Planner</h5>
+                <h5 class="card-title center">Day Planner</h5>
                 <p class="card-text">
                   A Day Planner where user can make and save their events for
                   the day.
                 </p>
               </div>
-              <div class="card-body">
+              <div class="card-body center">
                 <a
                   href="https://ewager1.github.io/Basic-Day-Planner/"
-                  class="card-link"
+                  class="card-link bold pr-4"
                   >Live Link</a
                 >
                 <a
                   href="https://github.com/Ewager1/Basic-Day-Planner"
-                  class="card-link"
+                  class="card-link bold"
+                  style="border-right: none"
                   >View Code</a
                 >
               </div>
@@ -98,21 +118,22 @@
                 alt="Website Snapshot of couchSurf App"
               />
               <div class="card-body">
-                <h5 class="card-title">Couch Surf</h5>
+                <h5 class="card-title center">Couch Surf</h5>
                 <p class="card-text">
                   A concept app focused on a fully customizable desktop
                   dashboard.
                 </p>
               </div>
-              <div class="card-body">
+              <div class="card-body center">
                 <a
                   href="https://ewager1.github.io/CouchSurf-1/"
-                  class="card-link"
+                  class="card-link bold pr-4"
                   >Live Link</a
                 >
                 <a
                   href="https://github.com/Ewager1/CouchSurf-1"
-                  class="card-link"
+                  class="card-link bold"
+                  style="border-right: none"
                   >View Code</a
                 >
               </div>
@@ -126,20 +147,21 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Timed Trivia Quiz</h5>
+                <h5 class="card-title center">Timed Trivia Quiz</h5>
                 <p class="card-text">
                   A timed quiz that tracks the user's score based on time.
                 </p>
               </div>
-              <div class="card-body">
+              <div class="card-body center">
                 <a
                   href="https://ewager1.github.io/Coding-Trivia-Game-/"
-                  class="card-link"
+                  class="card-link bold pr-4"
                   >Live Link</a
                 >
                 <a
                   href="https://github.com/Ewager1/Coding-Trivia-Game-"
-                  class="card-link"
+                  class="card-link bold"
+                  style="border-right: none"
                   >View Code</a
                 >
               </div>
@@ -155,21 +177,22 @@
                 alt="Snapshot of Password Generator App"
               />
               <div class="card-body">
-                <h5 class="card-title">Password Generator</h5>
+                <h5 class="card-title center">Password Generator</h5>
                 <p class="card-text">
                   A password generator app that produces a password based on the
                   User's choice of special characters.
                 </p>
               </div>
-              <div class="card-body">
+              <div class="card-body center">
                 <a
                   href="https://ewager1.github.io/randomPasswordGenerator/"
-                  class="card-link"
+                  class="card-link bold pr-4"
                   >Live Link</a
                 >
                 <a
                   href="https://github.com/Ewager1/randomPasswordGenerator"
-                  class="card-link"
+                  class="card-link bold"
+                  style="border-right: none"
                   >View Code</a
                 >
               </div>
@@ -183,21 +206,22 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Weather App</h5>
+                <h5 class="card-title center">Weather App</h5>
                 <p class="card-text">
                   A weather app that shows the local forcast for any town in the
                   US.
                 </p>
               </div>
-              <div class="card-body">
+              <div class="card-body center">
                 <a
                   href="https://ewager1.github.io/Weather-App/"
-                  class="card-link"
+                  class="card-link bold pr-4"
                   >Live Link</a
                 >
                 <a
                   href="https://github.com/Ewager1/Weather-App"
-                  class="card-link"
+                  class="card-link bold"
+                  style="border-right: none"
                   >View Code</a
                 >
               </div>
@@ -207,6 +231,123 @@
       </div>
       <div class="parallax"></div>
 
+      <section class="container-fluid background-color">
+        <h3 class="center mb-5 mt-5" id="skills">Technical Skills</h3>
+        <div class="row">
+          <div class="col-6 col-md-4 center mb-5">
+            <img
+              src="./assets/icons/html5Icon.png"
+              alt="image of html5 logo"
+              class="icon-size"
+            />
+            <p class="bold">HTML5</p>
+          </div>
+          <div class="col-6 col-md-4 center">
+            <img
+              src="./assets/icons/cssIcon.png"
+              alt="image of css logo"
+              class="icon-size"
+            />
+            <p class="bold">CSS3</p>
+          </div>
+          <div class="col-6 col-md-4 center">
+            <img
+              src="./assets/icons/jsIcon.png"
+              alt="image of javascript logo"
+              class="icon-size"
+            />
+            <p class="bold">Javascript</p>
+          </div>
+          <div class="col-6 col-md-4 center mb-5">
+            <img
+              src="./assets/icons/ajaxIcon.png"
+              alt="image of Ajax logo"
+              class="icon-size"
+            />
+            <p class="bold">Ajax</p>
+          </div>
+          <div class="col-6 col-md-4 center">
+            <img
+              src="./assets/icons/bootstrapIcon.png"
+              alt="image of bootstrap logo"
+              class="icon-size"
+            />
+            <p class="bold">Bootstrap</p>
+          </div>
+          <div class="col-6 col-md-4 center">
+            <img
+              src="./assets/icons/jQueryIcon.png"
+              alt="image of jQuery logo"
+              class="icon-size"
+            />
+            <p class="bold">jQuery</p>
+          </div>
+          <div class="col-6 col-md-4 center">
+            <img
+              src="./assets/icons/mobileFirstIcon.png"
+              alt="image of a phone for mobile first logo"
+              class="icon-size"
+            />
+            <p class="bold">Mobile First Responsiveness</p>
+          </div>
+          <div class="col-6 col-md-4 center">
+            <img
+              src="./assets/icons/nodeJsIcon.png"
+              alt="image of jsNode logo"
+              class="icon-size"
+            />
+            <p class="bold">nodeJS</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="parallax"></div>
+
+      <section class="container-fluid background-color">
+        <div class="row">
+          <div class="col">
+            <h2 class="center mt-2" id="contact">Contact Me</h2>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-12 col-sm-4 center">
+            <a
+              href="https://www.linkedin.com/in/ethan-wager-5297111b4/"
+              target="_blank"
+              style="border-right: none"
+            >
+              <img
+                alt="Linked In"
+                src="./assets/icons/linked-in-icon.png"
+                class="icon-size"
+              />
+            </a>
+          </div>
+          <div class="col-12 col-sm-4 center">
+            <a
+              href="https://github.com/Ewager1"
+              target="_blank"
+              style="border-right: none"
+            >
+              <img
+                alt="Git Hub Icon"
+                src="./assets/icons/github-icon.png"
+                class="icon-size"
+              />
+            </a>
+          </div>
+          <div class="col-12 col-sm-4 center">
+            <img
+              alt="Gmail Icon"
+              src="./assets/icons/gmailcon.png"
+              class="icon-size"
+            />
+            <p class="bold mt-1">ethanbwager@gmail.com</p>
+          </div>
+        </div>
+      </section>
+
+      <script src="./assets/main.js"></script>
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
