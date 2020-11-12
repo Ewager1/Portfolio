@@ -5,6 +5,7 @@
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -29,34 +30,86 @@
     <body>
       <div class="container-fluid columns hero center parallax">
         <div class="row">
-          <h1 class="col-12">Ethan Wager</h1>
-          <h2 class="col-12">Full Stack Developer</h2>
+          <h1 class="col-12" data-aos="fade-up">Ethan Wager</h1>
+          <h2 class="col-12" data-aos="fade-up" data-aos-delay="100">
+            Full Stack Developer
+          </h2>
           <h2 class="col-12">
-            <a href="#aboutMe" class="mr-1"> About Me </a
-            ><a href="#projects" class="mr-1">Project </a
-            ><a href="#skills" class="mr-1">Skill-Set </a
+            <a
+              href="#aboutMe"
+              class="mr-1"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              About Me </a
+            ><a
+              href="#projects"
+              class="mr-1"
+              data-aos="fade-up"
+              data-aos-delay="600"
+              >Project </a
+            ><a
+              href="#skills"
+              class="mr-1"
+              data-aos="fade-up"
+              data-aos-delay="700"
+              >Skill-Set </a
             ><a
               target="_blank"
               href="https://docs.google.com/document/d/1Dq4sB9DZ9mSK2EZWtSVFFRBlHK9ZADZGWFOMz5WRyyk/edit#heading=h.6wymnhinx9q5"
               class="mr-1"
+              data-aos="fade-up"
+              data-aos-delay="600"
               >Resume </a
-            ><a class="contact" href="#contact">Contact </a>
+            ><a
+              class="contact"
+              href="#contact"
+              data-aos="fade-up"
+              data-aos-delay="500"
+              >Contact
+            </a>
           </h2>
         </div>
       </div>
 
       <div class="container-fluid pt-3 pb-1 background-color">
-        <h2 class="center" id="aboutMe">About Me</h2>
+        <h2 class="center" id="aboutMe" data-aos="fade-up" data-aos-delay="100">
+          About Me
+        </h2>
         <h2 class="col-12 center">
-          <a href="#aboutMe" class="mr-1"> About Me </a
-          ><a href="#projects" class="mr-1">Project </a
-          ><a href="#skills" class="mr-1">Skill-Set </a
+          <a
+            href="#aboutMe"
+            class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            About Me </a
+          ><a
+            href="#projects"
+            class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            >Project </a
+          ><a
+            href="#skills"
+            class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="700"
+            >Skill-Set </a
           ><a
             target="_blank"
             href="https://docs.google.com/document/d/1Dq4sB9DZ9mSK2EZWtSVFFRBlHK9ZADZGWFOMz5WRyyk/edit#heading=h.6wymnhinx9q5"
             class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="600"
             >Resume </a
-          ><a class="contact" href="#contact">Contact </a>
+          ><a
+            class="contact"
+            href="#contact"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            >Contact
+          </a>
         </h2>
         <div class="row pt-5 pb-5">
           <div class="col-6 center align-self-center">
@@ -64,14 +117,18 @@
               src="./assets/images/updatedpic.jpg"
               alt="professional picture"
               class="rounded-circle profile-pic"
+              data-aos="fade-right"
+              data-aos-delay="1000"
             />
           </div>
           <div class="col-6 col-md-6 col-lg-5 col-xl-3">
-            <p class="bold">Nice to Meet you!</p>
-            <p>
+            <p class="bold" data-aos="fade-down" data-aos-delay="1000">
+              Nice to Meet you!
+            </p>
+            <p data-aos="fade-down" data-aos-delay="1100">
               I'm Ethan, an outgoing Full Stack Web Developer North of Boston.
             </p>
-            <p>
+            <p data-aos="fade-down" data-aos-delay="1100">
               I have just over one year of web development experiance. I love
               being able to look at applications from the User's standpoint and
               having the knowledge and skills to improve it. I especially enjoy
@@ -80,6 +137,8 @@
             </p>
             <!--Button Onclick opening in new tab from https://stackoverflow.com/questions/34082002/html-button-opening-link-in-new-tab/46542656-->
             <button
+              data-aos="fade-down"
+              data-aos-delay="1000"
               type="button"
               class="btn btn-secondary btn-lg mt-3"
               onclick=" window.open('https://docs.google.com/document/d/1Dq4sB9DZ9mSK2EZWtSVFFRBlHK9ZADZGWFOMz5WRyyk/edit?usp=sharing','_blank')"
@@ -94,24 +153,54 @@
       <div class="parallax"></div>
 
       <div class="col-12 center pb-5 pt-5 background-color">
-        <h2 id="projects">My Projects</h2>
+        <h2 id="projects" data-aos="fade-up" data-aos-delay="100">
+          My Projects
+        </h2>
         <h2 class="col-12 center">
-          <a href="#aboutMe" class="mr-1"> About Me </a
-          ><a href="#projects" class="mr-1">Project </a
-          ><a href="#skills" class="mr-1">Skill-Set </a
+          <a
+            href="#aboutMe"
+            class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            About Me </a
+          ><a
+            href="#projects"
+            class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            >Project </a
+          ><a
+            href="#skills"
+            class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="700"
+            >Skill-Set </a
           ><a
             target="_blank"
             href="https://docs.google.com/document/d/1Dq4sB9DZ9mSK2EZWtSVFFRBlHK9ZADZGWFOMz5WRyyk/edit#heading=h.6wymnhinx9q5"
             class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="600"
             >Resume </a
-          ><a class="contact" href="#contact">Contact </a>
+          ><a
+            class="contact"
+            href="#contact"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            >Contact
+          </a>
         </h2>
       </div>
       <div class="container-fluid background-color">
         <div class="row pb-md-5">
           <div class="col-12 col-md-6 col-lg-4">
             <!--Bootstrap Cards-->
-            <div class="card pb-5 center-items card-size">
+            <div
+              class="card pb-5 center-items card-size"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
               <img
                 class="card-img-top"
                 src="./assets/images/dayPlannerDemoPic.png"
@@ -142,7 +231,11 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card mb-5 center-items card-size">
+            <div
+              class="card mb-5 center-items card-size"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
               <img
                 class="card-img-top"
                 src="./assets/images/couchSurfDemoPic.png"
@@ -173,7 +266,11 @@
             </div>
           </div>
           <div class="col-12 col-md-5 col-lg-4">
-            <div class="card mb-5 center-items card-size">
+            <div
+              class="card mb-5 center-items card-size"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
               <img
                 class="card-img-top"
                 src="./assets/images/triviaDemoPic.jpg"
@@ -205,7 +302,11 @@
 
           <div class="col-12 col-md-5 col-lg-4">
             <!--Bootstrap Cards-->
-            <div class="card mb-5 center-items card-size">
+            <div
+              class="card mb-5 center-items card-size"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
               <img
                 class="card-img-top"
                 src="./assets/images/passwordGeneratorDemoPic.png"
@@ -236,7 +337,11 @@
             </div>
           </div>
           <div class="col-12 col-md- col-lg-4">
-            <div class="card mb-5 center-items card-size">
+            <div
+              class="card mb-5 center-items card-size"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
               <img
                 class="card-img-top"
                 src="./assets/images/weatherAppDemoPic.png"
@@ -271,20 +376,55 @@
       <div class="parallax"></div>
 
       <section class="container-fluid background-color">
-        <h2 class="center pt-5" id="skills">Technical Skills</h2>
+        <h2
+          class="center pt-5"
+          id="skills"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          Technical Skills
+        </h2>
         <h2 class="col-12 center mb-5">
-          <a href="#aboutMe" class="mr-1"> About Me </a
-          ><a href="#projects" class="mr-1">Project </a
-          ><a href="#skills" class="mr-1">Skill-Set </a
+          <a
+            href="#aboutMe"
+            class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            About Me </a
+          ><a
+            href="#projects"
+            class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            >Project </a
+          ><a
+            href="#skills"
+            class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="700"
+            >Skill-Set </a
           ><a
             target="_blank"
             href="https://docs.google.com/document/d/1Dq4sB9DZ9mSK2EZWtSVFFRBlHK9ZADZGWFOMz5WRyyk/edit#heading=h.6wymnhinx9q5"
             class="mr-1"
+            data-aos="fade-up"
+            data-aos-delay="600"
             >Resume </a
-          ><a class="contact" href="#contact">Contact </a>
+          ><a
+            class="contact"
+            href="#contact"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            >Contact
+          </a>
         </h2>
         <div class="row">
-          <div class="col-6 col-md-4 center mb-5">
+          <div
+            class="col-6 col-md-4 center mb-5"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <img
               src="./assets/icons/html5Icon.png"
               alt="image of html5 logo"
@@ -292,7 +432,11 @@
             />
             <p class="bold">HTML5</p>
           </div>
-          <div class="col-6 col-md-4 center">
+          <div
+            class="col-6 col-md-4 center"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <img
               src="./assets/icons/cssIcon.png"
               alt="image of css logo"
@@ -300,7 +444,11 @@
             />
             <p class="bold">CSS3</p>
           </div>
-          <div class="col-6 col-md-4 center">
+          <div
+            class="col-6 col-md-4 center"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <img
               src="./assets/icons/jsIcon.png"
               alt="image of javascript logo"
@@ -308,7 +456,11 @@
             />
             <p class="bold">Javascript</p>
           </div>
-          <div class="col-6 col-md-4 center mb-5">
+          <div
+            class="col-6 col-md-4 center mb-5"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <img
               src="./assets/icons/ajaxIcon.png"
               alt="image of Ajax logo"
@@ -316,7 +468,11 @@
             />
             <p class="bold">Ajax</p>
           </div>
-          <div class="col-6 col-md-4 center">
+          <div
+            class="col-6 col-md-4 center"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <img
               src="./assets/icons/bootstrapIcon.png"
               alt="image of bootstrap logo"
@@ -324,7 +480,11 @@
             />
             <p class="bold">Bootstrap</p>
           </div>
-          <div class="col-6 col-md-4 center">
+          <div
+            class="col-6 col-md-4 center"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <img
               src="./assets/icons/jQueryIcon.png"
               alt="image of jQuery logo"
@@ -332,7 +492,11 @@
             />
             <p class="bold">jQuery</p>
           </div>
-          <div class="col-6 col-md-4 center">
+          <div
+            class="col-6 col-md-4 center"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <img
               src="./assets/icons/mobileFirstIcon.png"
               alt="image of a phone for mobile first logo"
@@ -340,7 +504,11 @@
             />
             <p class="bold">Mobile First Responsiveness</p>
           </div>
-          <div class="col-6 col-md-4 center">
+          <div
+            class="col-6 col-md-4 center"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <img
               src="./assets/icons/nodeJsIcon.png"
               alt="image of jsNode logo"
@@ -356,22 +524,57 @@
       <section class="container-fluid background-color">
         <div class="row">
           <div class="col">
-            <h2 class="center pt-5" id="contact">Contact Me</h2>
+            <h2
+              class="center pt-5"
+              id="contact"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Contact Me
+            </h2>
             <h2 class="col-12 center">
-              <a href="#aboutMe" class="mr-1"> About Me </a
-              ><a href="#projects" class="mr-1">Project </a
-              ><a href="#skills" class="mr-1">Skill-Set </a
+              <a
+                href="#aboutMe"
+                class="mr-1"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                About Me </a
+              ><a
+                href="#projects"
+                class="mr-1"
+                data-aos="fade-up"
+                data-aos-delay="600"
+                >Project </a
+              ><a
+                href="#skills"
+                class="mr-1"
+                data-aos="fade-up"
+                data-aos-delay="700"
+                >Skill-Set </a
               ><a
                 target="_blank"
                 href="https://docs.google.com/document/d/1Dq4sB9DZ9mSK2EZWtSVFFRBlHK9ZADZGWFOMz5WRyyk/edit#heading=h.6wymnhinx9q5"
                 class="mr-1"
+                data-aos="fade-up"
+                data-aos-delay="600"
                 >Resume </a
-              ><a class="contact" href="#contact">Contact </a>
+              ><a
+                class="contact"
+                href="#contact"
+                data-aos="fade-up"
+                data-aos-delay="500"
+                >Contact
+              </a>
             </h2>
           </div>
         </div>
         <div class="row pb-3">
-          <div class="col-12 col-sm-4 center">
+          <div
+            class="col-12 col-sm-4 center"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             <a
               href="https://www.linkedin.com/in/ethan-wager-5297111b4/"
               target="_blank"
@@ -384,7 +587,11 @@
               />
             </a>
           </div>
-          <div class="col-12 col-sm-4 center">
+          <div
+            class="col-12 col-sm-4 center"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             <a
               href="https://github.com/Ewager1"
               target="_blank"
@@ -397,7 +604,11 @@
               />
             </a>
           </div>
-          <div class="col-12 col-sm-4 center">
+          <div
+            class="col-12 col-sm-4 center"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             <img
               alt="Gmail Icon"
               src="./assets/icons/gmailcon.png"
@@ -424,6 +635,10 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"
       ></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
     </body>
   </html>
 </html>
