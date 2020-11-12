@@ -1,50 +1,59 @@
-/*w3 parallax code*/ 
+/*w3 parallax code*/
 
-body, html {
-    height: 100%;
-  }
-  
-.parallax {
-    /* The image used */
-    background-image: url("./images/backgroundPhoto.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-/*sets height and sets up columns*/ 
-.hero{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
+body,
+html {
+  height: 100%;
 }
 
+/*centers items within div*/
+.center-items {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
+/* aligns text in center of div */
 .center {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  @media screen and (max-width: 650px) {
-    .profile-pic {
-        max-width: 90%;
-    }
-  }
+.parallax {
+  /* The image used */
+  background-image: url("./images/backgroundPhoto.jpg");
 
-  @media screen and (min-width: 650px) {
-    .profile-pic {
-        max-width: 300px;
-    }
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*sets height and sets up columns*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* responsiveness for profile picture. Worked better than img-fluid */
+@media screen and (max-width: 650px) {
+  .profile-pic {
+    max-width: 90%;
   }
-  
-.center-items{
-    margin-left:auto;
-    margin-right:auto;
+}
+/* responsiveness for profile picture. Worked better than img-fluid */
+@media screen and (min-width: 650px) {
+  .profile-pic {
+    max-width: 300px;
+  }
+}
+
+/*Small Change to bootstraps rem width to have better responsiveness.
+  Hardcoded height helps all cards look more consistent*/
+.card-size {
+  width: auto;
+  height: 400px;
 }
