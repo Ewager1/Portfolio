@@ -32,3 +32,19 @@ body, html {
     text-align: center;
   }
 
+  @media screen and (max-width: 650px) {
+    .profile-pic {
+        max-width: 90%;
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    .profile-pic {
+        max-width: 300px;
+    }
+  }
+  
+.center-items{
+    margin-left:auto;
+    margin-right:auto;
+}
