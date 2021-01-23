@@ -108,3 +108,7 @@ a {
   max-width:100px;
   height:auto
 }
+
+.card-img-top {
+max-height:250px;
+}
